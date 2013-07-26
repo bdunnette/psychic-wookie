@@ -14,8 +14,16 @@ title: 'Lab Medicine and Pathology - Residency and Fellowship Programs'
 </head>
 <body>
     <nav class='top-bar'>
-        <li><a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a></li>
-        <li><a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a></li>
+    	<ul class="title-area">
+    		<li class="name">Residency and Fellowship Programs</li>
+  		</ul>
+  		<section class="top-bar-section">
+			<!-- Left Nav Section -->
+			<ul class="left">
+        		<li><a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a></li>
+        		<li><a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a></li>
+        	</ul>
+        </section>
 	</nav>
 	<div class='row'>
 		<div class="large-12 columns">
@@ -34,42 +42,7 @@ title: 'Lab Medicine and Pathology - Residency and Fellowship Programs'
   	</script>
 
   	<script src="js/foundation.min.js"></script>
-  <!--
-
-  <script src="js/foundation/foundation.js"></script>
-
-  <script src="js/foundation/foundation.alerts.js"></script>
-
-  <script src="js/foundation/foundation.clearing.js"></script>
-
-  <script src="js/foundation/foundation.cookie.js"></script>
-
-  <script src="js/foundation/foundation.dropdown.js"></script>
-
-  <script src="js/foundation/foundation.forms.js"></script>
-
-  <script src="js/foundation/foundation.joyride.js"></script>
-
-  <script src="js/foundation/foundation.magellan.js"></script>
-
-  <script src="js/foundation/foundation.orbit.js"></script>
-
-  <script src="js/foundation/foundation.reveal.js"></script>
-
-  <script src="js/foundation/foundation.section.js"></script>
-
-  <script src="js/foundation/foundation.tooltips.js"></script>
-
-  <script src="js/foundation/foundation.topbar.js"></script>
-
-  <script src="js/foundation/foundation.interchange.js"></script>
-
-  <script src="js/foundation/foundation.placeholder.js"></script>
-
-  <script src="js/foundation/foundation.abide.js"></script>
-
-  -->
-
+  	<script src="js/foundation/foundation.topbar.js"></script>
   <script>
     $(document).foundation();
   </script>

@@ -46,7 +46,7 @@ body,
 input,
 textarea {
   color:#516066;
-  font:15px/1.67 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   -webkit-font-smoothing:antialiased;
   }
 *, *:after, *:before {
@@ -62,7 +62,7 @@ h4,
 h5,
 h6 {
   margin:0;
-  font: 'Noto Serif', sans-serif;
+  font-family: 'Noto Serif', sans-serif;
   font-weight:normal;
   }
 

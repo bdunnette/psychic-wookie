@@ -3,7 +3,7 @@ layout: default
 section: blog
 ---
 
-<div class='listing col6 pad4h margin3'>
+<div class="large-12 columns">
   {% for item in site.categories.blog limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
@@ -15,4 +15,6 @@ section: blog
   {% endfor %}
 </div>
 
+<div class="large-12 columns">
 {% include rss-link.html %}
+</div>
